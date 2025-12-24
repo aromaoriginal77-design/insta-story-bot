@@ -2,4 +2,5 @@ services:
   - type: web
     name: insta-story-bot
     env: python
+    pythonVersion: "3.10.12"
     startCommand: python bot.py
